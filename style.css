@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    font-style: normal;
+    color: #000000;;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+/*aside + main*/
+.wrapper{
+    max-width: 1088px;
+    display: flex;
+    margin: 46px auto 0 auto;
+}
+
+/* aside */
+.aside{
+	width: 140px;
+	display:flex;
+	flex-direction:column;
+    margin-right: 44px;
+}
+
+.logo{
+    padding: 0 10px;
+}
+
+.aside-menu-item{
+    width: 140px;
+    height: 66px;
+    padding-top: 13px;
+}
+
+.item-menu__image{
+    margin: 5px 0 0 3px;
+}
+
+.item-menu__link{ 
+    vertical-align: 13px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+	margin-left: 10px;
+    color: #34ACA7;
+}
+
+.aside__title{
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    border-bottom: 1px dashed #E5E5E5;
+	padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+.tweet-button{
+    display: flex;
+	width: 100%;
+    height: 30px;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #34ACA7;
+}
+.tweet-button img{
+    padding: 6px;
+}
+
+.aside__text{
+    font-style: italic;
+    font-size: 10px;
+    line-height: 19px;
+    padding-bottom: 15px;
+}
+
+/* main*/
+.main{
+    width: 896px;
+}
+
+.banner{
+    position: relative;
+    width: 896px;
+    height: 445px;
+}
+
+.banner-image{
+    width: 100%;
+    height: 445px;
+}
+
+.banner-text{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 285px;
+}
+
+.text{
+	font-style: italic;
+	text-align: center;
+	padding: 14px 0;
+}
+
+.text__header{   
+    width: 272px;
+    height: 49px;
+    font-size: 22px;
+    line-height: 22px;
+    background-color: #FFFFFF;
+}
+
+.text__description{
+    width: 487px;
+    height: 42px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;   
+	background-color: #000000;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    color: #34ACA7;
+}
+
+.navigation-item{
+    flex-basis: 25%;
+    border-left: 1px solid #F9FBFB;
+	background-color: #EFF8F7;
+}
+
+.navigation-item:hover{
+	background-color: #D9EFEC;
+	cursor:pointer;
+}
+
+.navigation-item__title{
+    font-size: 18px;
+    line-height: 18px;
+    padding: 26px 0 0 20px ;
+}
+
+.navigation-item__description{
+    font-style: italic;
+    font-size: 10px;
+    line-height: 19px;
+    padding: 0 0 22px 20px;
+}
+
+.active{
+    background-color: #D9EFEC;
+    border: none;
+}
+
+.main-subscribe{
+	display: flex;
+    border-top: 1px dashed #E5E5E5;
+    border-bottom: 1px dashed #E5E5E5;
+    align-items: center;
+    padding: 10px 18px;
+	margin-top: 30px;
+    margin-bottom: 29px;
+}
+
+.main-subscribe__text{
+	width: 530px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 24px 0 16px;    
+}
+
+form{
+    display: flex;
+}
+
+input{
+    border: 1px solid #E5E5E5;
+}
+
+.main-subscribe__button{
+    background: linear-gradient(180deg, #F4F3F3 0%, #BBB9B9 100%);
+    border: 1px solid #E5E5E5;
+    border-radius: 2px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 6px 18px;
+    margin-left: 18px;
+}
+
+.main-cards{
+    display: flex;
+	flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.card{
+	width: 207px;
+    margin-bottom: 29px;
+}
+
+.card__image{
+	width: 207px;
+    height: 143px;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 11px;
+}
+
+.card__title{
+    font-size: 16px;
+    line-height: 21px;
+    color: #34ACA7;
+    margin-bottom: 9px;
+}
+
+.card__description{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 11px;
+}
+
+.card__date{
+    font-size: 14px;
+    line-height: 20px;
+    color: #E5E5E5;
+}
+
+.card__link{
+    color: #34ACA7; 
+}
+
+footer{
+	max-width: 1088px;
+    display: flex;
+	margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #E5E5E5;
+}
+
+.footer-info {
+	font-size: 12px;
+    line-height: 12px;
+}
+
+.footer-info a{
+    color: #34ACA7;
+    padding: 4px;
+}
+
+.footer-info p{
+    color: #E5E5E5;
+    margin-top: 5px;
+}
+.footer-social{
+ margin: 25px 0;
+}

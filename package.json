@@ -1,0 +1,25 @@
+{
+  "name": "task-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksenia-nik/Tasks-DD_School2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksenia-nik/Tasks-DD_School2020/issues"
+  },
+  "homepage": "https://github.com/ksenia-nik/Tasks-DD_School2020#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "string-length": "^4.0.1"
+  }
+}

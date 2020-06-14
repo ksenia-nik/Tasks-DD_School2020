@@ -256,3 +256,30 @@ input{
 .card__link{
     color: #34ACA7; 
 }
+
+footer{
+	max-width: 1088px;
+    display: flex;
+	margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #E5E5E5;
+}
+
+.footer-info {
+	font-size: 12px;
+    line-height: 12px;
+}
+
+.footer-info a{
+    color: #34ACA7;
+    padding: 4px;
+}
+
+.footer-info p{
+    color: #E5E5E5;
+    margin-top: 5px;
+}
+.footer-social{
+ margin: 25px 0;
+}

@@ -1,30 +1,73 @@
-@media (min-width:992px){
+@media (min-width:480px) and (max-width:768px){
+
     .wrapper{
+        width: 621px;
         display: flex;
-        flex-direction:column; 
-        }
-        .aside{
-            display: flex;
-            flex-direction:column-reverse;
-        }
-        .aside-menu{
-            max-width: 480px;
-            display: flex;
-            flex-direction:row;
-        }
-        .banner{
-            position: relative;
-            width: 480px;
-            height: 373px;
+        flex-direction:column;
+        margin:20px; 
         }
 
+        .aside{
+            max-width: 545px;
+            flex-direction:row;
+        }
+
+        .logo{
+            padding: 0 10px 0 0;
+        }
+
+        .aside-menu-item{
+            width: 80px;
+            border:1px solid black; 
+            text-align: center;
+        }
+
+        .item-menu__link{ 
+            margin:0;
+            padding: 0;
+            color: #34ACA7;
+        }
+
+        .aside-menu{
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+        }
+
+        .aside-tweet{
+            display:none;
+        }
+
+        .aside-friends{
+            display:none; 
+        }
+
+        .navigation{
+            display:none; 
+        }
         .banner-image{
-            width: 480px;
-            height: 373px;
+            margin-top:20px;
+            width: 545px;
+            height:353px;
+        }
+
+        .text{
+            font-style: italic;
+            text-align: left;
+            padding: 14px 0 14px 10px;
+
+        }
+        .text__header{   
+            width: 545px;
+            height: 49px;
+            font-size: 22px;
+            line-height: 22px;
+            opacity: 0.5;
+            background-color: #FFFFFF;
         }
 
         .text__description{
-            width: 480px;
+            width: 545px;
             height: 42px;
             font-size: 14px;
             line-height: 14px;
@@ -32,10 +75,14 @@
             background-color: #000000;
         }
 
+        .main-subscribe{
+            display: flex;
+            max-width: 545px;
+        }
+
         .main-slider{
             display: flex;
-            width: 480px;
-            flex-direction: column;
+            width: 545px;
 
         }
         .main-cards{
@@ -43,5 +90,9 @@
             flex-direction: column;
             flex-wrap:wrap;
             justify-content: space-between;
+        }
+
+        footer{
+            width: 545px;
         }
     }
